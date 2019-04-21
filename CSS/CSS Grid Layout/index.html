@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Grid</title>
+        <style>
+
+            .wrapper{
+                display:grid;
+                grid-template-columns: 70% 30%;
+
+                /*
+                grid-column-gap: 1em;
+                grid-row-gap: 1em;
+                */
+                grid-gap: 1em; 
+            }
+
+            .wrapper > div{
+                background: #eee;
+                padding:1em;
+            }
+
+            .wrapper > div:nth-child(odd){
+                background:#ddd;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class ="wrapper">
+            <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum repellat sint quisquam? Mollitia nesciunt modi veritatis provident vitae quidem voluptas, minima in cupiditate impedit est laudantium iure commodi culpa cumque aliquam facere! Itaque, voluptatibus ipsam illum eum debitis incidunt accusamus nostrum deleniti sapiente doloribus odit libero molestiae. Voluptatem, facilis eos! Odio, sunt iste eius magnam error est quis natus! Esse repellendus sint molestias rerum quam sapiente excepturi veritatis non harum, debitis cupiditate odio, tempora nisi perspiciatis quis, et ut velit?
+            </div>
+            <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque dolor sint distinctio nobis, eos temporibus eveniet praesentium rem reiciendis officia, voluptatibus magnam. Autem totam pariatur corporis nisi laborum nobis nesciunt!
+            </div>
+            <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum repellat sint quisquam? Mollitia nesciunt modi veritatis provident vitae quidem voluptas, minima in cupiditate impedit est laudantium iure commodi culpa cumque aliquam facere! Itaque, voluptatibus ipsam illum eum debitis incidunt accusamus nostrum deleniti sapiente doloribus odit libero molestiae. Voluptatem, facilis eos! Odio, sunt iste eius magnam error est quis natus! Esse repellendus sint molestias rerum quam sapiente excepturi veritatis non harum, debitis cupiditate odio, tempora nisi perspiciatis quis, et ut velit?
+            </div>
+            <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque dolor sint distinctio nobis, eos temporibus eveniet praesentium rem reiciendis officia, voluptatibus magnam. Autem totam pariatur corporis nisi laborum nobis nesciunt!
+            </div>
+        </div>
+    </body>
+</html>
